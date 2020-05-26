@@ -1,4 +1,5 @@
 
+
 /**** MOBILE STYLE ****/
 
     *, *:before, *:after {
@@ -13,14 +14,16 @@
     }
 
     section {
-      /* margin: 0 auto; */
+      text-align: center;
       width: 100%;
     }
+
 
 /** HEADERS **/
 
     h1 { /* Location Titles */
       font-size: 160%;
+      text-align: left;
     }
 
     .site-title { /* Site Title */
@@ -72,6 +75,7 @@
       {
           h1 { /* Location Titles */
             font-size: 140%;
+            text-align: left;
           }
 
           .site-title { /* Site Title */
@@ -123,7 +127,8 @@
     @media screen and (min-width: 991px)
       {
         h1 { /* Location Titles */
-          font-size: 160%;
+          font-size: 160%
+          text-align: left;
         }
 
         .page-title { /* Site Title */
@@ -167,4 +172,4 @@
             .preview-rome {
               background-image: url(../images/rome.jpg);
             }
-   }
+}
