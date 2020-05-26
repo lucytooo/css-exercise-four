@@ -17,7 +17,7 @@
       width: 100%;
     }
 
-/**** HEADERS ****/
+/** HEADERS **/
 
     h1 { /* Location Titles */
       font-size: 160%;
@@ -33,7 +33,7 @@
       padding: 8%;
     }
 
-/**** TRAVEL LOCATIONS ****/
+/** TRAVEL LOCATIONS **/
 
       div {
         display: inline-block;
@@ -44,7 +44,7 @@
         background-repeat: no-repeat;
       }
 
-/**** DIV LOCATION IMAGES ****/
+/** DIV LOCATION IMAGES **/
 
       /* Baku */
         .preview-baku {
@@ -67,7 +67,7 @@
         }
 
 
-/**** Design for Tablets ****/
+/**** DESIGN FOR TABLETS ****/
     @media screen and (min-width: 575px)
       {
           h1 { /* Location Titles */
@@ -85,7 +85,7 @@
           }
 
 
-        /**** TRAVEL LOCATIONS ****/
+        /** TRAVEL LOCATIONS **/
           div {
             display: inline-block;
             width: 36%;
@@ -96,7 +96,7 @@
           }
 
 
-        /**** DIV LOCATION IMAGES ****/
+        /** DIV LOCATION IMAGES **/
 
           /* Baku */
             .preview-baku {
@@ -119,7 +119,7 @@
             }
   }
 
-/**** Design for Laptops ****/
+/**** DESIGN FOR LAPTOPS ****/
     @media screen and (min-width: 991px)
       {
         h1 { /* Location Titles */
@@ -136,7 +136,7 @@
           padding: 1%;
         }
 
-      /**** TRAVEL LOCATIONS ****/
+      /** TRAVEL LOCATIONS **/
         div {
           display: inline-block;
           width: 19%;
@@ -146,7 +146,7 @@
           background-repeat: no-repeat;
         }
 
-      /**** DIV LOCATION IMAGES ****/
+      /** DIV LOCATION IMAGES **/
 
           /* Baku */
             .preview-baku {
@@ -167,4 +167,4 @@
             .preview-rome {
               background-image: url(../images/rome.jpg);
             }
-}
+   }
