@@ -1,5 +1,5 @@
 
-/**** GLOBAL STYLES ****/
+/**** MOBILE STYLE ****/
 
     *, *:before, *:after {
       box-sizing: border-box;
@@ -17,7 +17,6 @@
       width: 100%;
     }
 
-
 /**** HEADERS ****/
 
     h1 { /* Location Titles */
@@ -34,44 +33,7 @@
       padding: 8%;
     }
 
-            /* Tablet HEADERS */
-              @media screen and (min-width: 575px)
-              {
-                  h1 { /* Location Titles */
-                    font-size: 140%;
-                  }
-
-                  .site-title { /* Site Title */
-                    font-size: 120%;
-                    font-family: system-ui, sans-serif;
-                    text-transform: uppercase;
-                    text-align: center;
-                    width: 100%;
-                    display: block;
-                    padding: 4%;
-                  }}
-
-            /* Laptop HEADERS */
-                @media screen and (min-width: 991px)
-                {
-
-                  h1 { /* Location Titles */
-                    font-size: 160%;
-                  }
-
-                  .page-title { /* Site Title */
-                    font-size: 120%;
-                    font-family: system-ui, sans-serif;
-                    text-transform: uppercase;
-                    text-align: center;
-                    width: 100%;
-                    display: block;
-                    padding: 1%;
-                  }
-                }
-
-
-    /**** TRAVEL LOCATIONS ****/
+/**** TRAVEL LOCATIONS ****/
 
       div {
         display: inline-block;
@@ -82,50 +44,127 @@
         background-repeat: no-repeat;
       }
 
-              /* Design for Tablet */
-                @media screen and (min-width: 575px)
-                {
-                  div {
-                        display: inline-block;
-                        width: 36%;
-                        padding: 20px 100px 130px 30px;
-                        margin: 4px 0px 10px 10px;
-                        background-size: 300px 200px;
-                        background-repeat: no-repeat;
-                  }
-                }
-
-              /* Design for Laptops */
-                @media screen and (min-width: 991px)
-                {
-                  div {
-                      display: inline-block;
-                      width: 19%;
-                      padding: 20px 0px 140px 20px;
-                      margin: 4px 0px 10px 10px;
-                      background-size: 300px 200px;
-                      background-repeat: no-repeat;
-                }}
-
-
 /**** DIV LOCATION IMAGES ****/
 
-    /* Baku */
-      .preview-baku {
-        background-image: url(../images/baku.jpg);
-      }
+      /* Baku */
+        .preview-baku {
+          background-image: url(../images/baku.jpg);
+        }
 
-    /* London */
-      .preview-london {
-        background-image: url(../images/london.png);
-      }
+      /* London */
+        .preview-london {
+          background-image: url(../images/london.png);
+        }
 
-    /* Madrid */
-      .preview-madrid {
-        background-image: url(../images/madrid.jpg);
-      }
+      /* Madrid */
+        .preview-madrid {
+          background-image: url(../images/madrid.jpg);
+        }
 
-    /* Rome */
-      .preview-rome {
-        background-image: url(../images/rome.jpg);
-      }
+      /* Rome */
+        .preview-rome {
+          background-image: url(../images/rome.jpg);
+        }
+
+
+/**** Design for Tablets ****/
+    @media screen and (min-width: 575px)
+      {
+          h1 { /* Location Titles */
+            font-size: 140%;
+          }
+
+          .site-title { /* Site Title */
+            font-size: 120%;
+            font-family: system-ui, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+            display: block;
+            padding: 4%;
+          }
+
+
+        /**** TRAVEL LOCATIONS ****/
+          div {
+            display: inline-block;
+            width: 36%;
+            padding: 20px 100px 130px 30px;
+            margin: 4px 0px 10px 10px;
+            background-size: 300px 200px;
+            background-repeat: no-repeat;
+          }
+
+
+        /**** DIV LOCATION IMAGES ****/
+
+          /* Baku */
+            .preview-baku {
+              background-image: url(../images/baku.jpg);
+            }
+
+          /* London */
+            .preview-london {
+              background-image: url(../images/london.png);
+            }
+
+          /* Madrid */
+            .preview-madrid {
+              background-image: url(../images/madrid.jpg);
+            }
+
+          /* Rome */
+            .preview-rome {
+              background-image: url(../images/rome.jpg);
+            }
+  }
+
+/**** Design for Laptops ****/
+    @media screen and (min-width: 991px)
+      {
+        h1 { /* Location Titles */
+          font-size: 160%;
+        }
+
+        .page-title { /* Site Title */
+          font-size: 120%;
+          font-family: system-ui, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          width: 100%;
+          display: block;
+          padding: 1%;
+        }
+
+      /**** TRAVEL LOCATIONS ****/
+        div {
+          display: inline-block;
+          width: 19%;
+          padding: 20px 0px 140px 20px;
+          margin: 4px 0px 10px 10px;
+          background-size: 300px 200px;
+          background-repeat: no-repeat;
+        }
+
+      /**** DIV LOCATION IMAGES ****/
+
+          /* Baku */
+            .preview-baku {
+              background-image: url(../images/baku.jpg);
+            }
+
+          /* London */
+            .preview-london {
+              background-image: url(../images/london.png);
+            }
+
+          /* Madrid */
+            .preview-madrid {
+              background-image: url(../images/madrid.jpg);
+            }
+
+          /* Rome */
+            .preview-rome {
+              background-image: url(../images/rome.jpg);
+            }
+}
